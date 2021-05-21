@@ -1,4 +1,4 @@
-# ABC app
+# ABC operator
 
 ##### Description
 
@@ -6,16 +6,15 @@ The `ABC app` is a Tercen app to compute the Antibodies Bound per Cell value.
 
 ##### Usage
 
-Input variables|.
+Input relations|.
 ---|---
-`Bmax`        | numeric value 
-`Transmission Coefficient`        | numeric value 
-`Atoms/Ab`        | numeric value 
-`Group`           | factor(s), variables used to group values per cell
+`y-axis`        | numeric, Bmax value 
+`column1`        | numeric, Transmission Coefficient value 
+`column2`        | numeric, Atoms/Ab value 
 
 Output relations|.
 ---|---
-`abc_value`        | ABC value, computed per cell
+`abc`        | ABC value, computed per cell
 
 ##### Details
 
