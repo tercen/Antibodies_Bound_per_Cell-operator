@@ -9,8 +9,8 @@ The `ABC app` is a Tercen app to compute the Antibodies Bound per Cell value.
 Input relations|.
 ---|---
 `y-axis`        | numeric, Bmax value 
-`column1`        | numeric, Transmission Coefficient value 
-`column2`        | numeric, Atoms/Ab value 
+`row1`        | numeric, Transmission Coefficient value 
+`row2`        | numeric, Atoms/Ab value 
 
 Output relations|.
 ---|---
