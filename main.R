@@ -2,8 +2,8 @@ library(tercen)
 library(dplyr)
 
 ctx <- tercenCtx()
-col_values <- ctx$cselect(ctx$cnames)
-if(ncol(col_values) != 2) stop("Two variables must be speficied in the columns.")
+col_values <- ctx$rselect(ctx$rnames)
+if(ncol(col_values) < 2) stop("At least two variables must be specified in the columns.")
 
 do.abc <- function(df, col_values) {
   cidx <- df$.ci[1] + 1
