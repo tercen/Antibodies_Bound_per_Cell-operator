@@ -6,7 +6,7 @@ col_values <- ctx$rselect(ctx$rnames)
 if(ncol(col_values) < 2) stop("At least two variables must be specified in the columns.")
 
 do.abc <- function(df, col_values) {
-  cidx <- df$.ci[1] + 1
+  cidx <- df$.ri[1] + 1
   abc <- (df$.y[1] / col_values[cidx, 1]) / (col_values[cidx, 2])
   df$abc <- unname(abc[[1]])
   return(df)
