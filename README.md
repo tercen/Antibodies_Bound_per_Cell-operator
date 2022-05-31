@@ -1,8 +1,8 @@
-# ABC operator
+# Antibodies Bound per Cell (ABC) operator
 
 ##### Description
 
-The `ABC app` is a Tercen app to compute the Antibodies Bound per Cell value.
+The `ABC operator` is a Tercen operator to compute the Antibodies Bound per Cell value.
 
 ##### Usage
 

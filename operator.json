@@ -1,6 +1,6 @@
 {
   "name": "Antibodies Bound per Cell (ABC)",
-  "description": "Return the Antibodies Bound per Cell value, per cell",
+  "description": "Compute the Antibodies Bound per Cell value",
   "tags": ["flow cytometry"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/Antibodies_Bound_per_Cell_operator"]
